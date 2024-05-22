@@ -1,0 +1,13 @@
+   {
+    "user_first_name":"shiva",
+    "user_last_name":"Dandekar",
+    "user_contact_number":9874073890,
+    "user_email_id":"restassured@gmail.com",
+    "userAddress":{
+    "plotNumber":"307-A",
+    "street":"Mason",
+    "state":"PA",
+    "country":"USA",
+    "zipCode":12345
+    }
+}

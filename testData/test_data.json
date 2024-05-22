@@ -1,0 +1,14 @@
+   {
+    "user_first_name":"ganesha",
+    "user_last_name":"Dandekar",
+    "user_contact_number":7114073890,
+    "user_email_id":"ay1yk1@gmail.com",
+    "userAddress":{
+    "plotNumber":"307-A",
+    "street":"Mason",
+    "state":"PA",
+    "country":"USA",
+    "zipCode":12345
+    }
+}
+

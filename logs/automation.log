@@ -1,0 +1,29 @@
+14:07:36.724 [main] INFO  api.test.UserTests - ********* Creating user*************
+14:07:39.702 [main] INFO  api.test.UserTests - ********* User Createdr*************
+14:07:39.725 [main] INFO  api.test.UserTests - ********* Get user by ID*************
+14:07:40.228 [main] INFO  api.test.UserTests - ********* Get user by name*************
+14:07:40.656 [main] INFO  api.test.UserTests - ********* Update user ByID*************
+14:07:41.184 [main] INFO  api.test.UserTests - ********* Delete user*************
+14:07:41.604 [main] INFO  api.test.UserTests - ********* User deleted*************
+14:44:49.332 [main] DEBUG api.test.UserTests2 - debugging............
+14:44:49.360 [main] INFO  api.test.UserTests2 - ********* Creating user*************
+14:44:52.902 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
+14:52:37.304 [main] DEBUG api.test.UserTests - debugging............
+14:52:37.322 [main] INFO  api.test.UserTests - ********* Creating user*************
+14:52:40.317 [main] INFO  api.test.UserTests - ********* User Createdr*************
+14:52:40.322 [main] INFO  api.test.UserTests - ********* Get user by ID*************
+14:52:40.801 [main] INFO  api.test.UserTests - ********* Get user by name*************
+14:52:41.255 [main] INFO  api.test.UserTests - ********* Update user ByID*************
+14:52:41.785 [main] INFO  api.test.UserTests - ********* Delete user*************
+14:52:42.193 [main] INFO  api.test.UserTests - ********* User deleted*************
+14:56:12.497 [main] DEBUG api.test.UserTests - debugging............
+14:56:12.515 [main] INFO  api.test.UserTests - ********* Creating user*************
+14:56:15.357 [main] INFO  api.test.UserTests - ********* User Createdr*************
+14:56:15.364 [main] INFO  api.test.UserTests - ********* Get user by ID*************
+14:56:15.857 [main] INFO  api.test.UserTests - ********* Get user by name*************
+14:56:16.301 [main] INFO  api.test.UserTests - ********* Update user ByID*************
+14:56:16.841 [main] INFO  api.test.UserTests - ********* Delete user*************
+14:56:17.280 [main] INFO  api.test.UserTests - ********* User deleted*************
+14:57:43.313 [main] DEBUG api.test.UserTests2 - debugging............
+14:57:43.330 [main] INFO  api.test.UserTests2 - ********* Creating user*************
+14:57:46.477 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
