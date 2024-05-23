@@ -9,10 +9,43 @@ public class User {
 	    private Long user_contact_number;
 	    private String user_email_id;
 	    private Address userAddress;
-	   // int user_id;
-	   // int userStatus=0;
+	    public String scenario_name;
+	    public int expectedStatus;
+	    //int user_id;
+	    //int userStatus=0;
 
-	   
+		/*
+		 * public int getUserStatus() { return userStatus; }
+		 * 
+		 * public void setUserStatus(int userStatus) { this.userStatus = userStatus; }
+		 */
+
+		/*
+		 * public int getUser_id() { return user_id; }
+		 * 
+		 * public void setUser_id(int user_id) { this.user_id = user_id; }
+		 */
+
+	    public User()
+	    {
+	    	
+	    }
+		public int getExpectedStatus() {
+			return expectedStatus;
+		}
+
+		public void setExpectedStatus(int expectedStatus) {
+			this.expectedStatus = expectedStatus;
+		}
+
+		public String getScenario() {
+			return scenario_name;
+		}
+
+		public void setScenario(String scenario) {
+			this.scenario_name = scenario;
+		}
+
 		// Getters
 	    public String getUser_first_name() {
 	        return user_first_name;
@@ -35,14 +68,13 @@ public class User {
 	    }
 
 	    // Setters (added)
-	    public void setUser_first_name(String userFirstName) {
-	        this.user_first_name = userFirstName;
-	    }
-
-	    public void setUser_last_name(String userLastName) {
-	        this.user_last_name = userLastName;
-	    }
-
+		
+		  public void setUser_first_name(String userFirstName) { this.user_first_name =
+		  userFirstName; }
+		  
+		  public void setUser_last_name(String userLastName) { this.user_last_name =
+		  userLastName; }
+		 
 	    public void setUser_contact_number(Long userContactNumber) {
 	        this.user_contact_number = userContactNumber;
 	    }
@@ -66,6 +98,10 @@ public class User {
 	    
 	    
 	    public static class Address {
+	    	 public Address()
+	    	 {
+	    		 
+	    	 }
 
 	        private String plotNumber;
 	        private String street;
@@ -128,5 +164,3 @@ public class User {
 	        }
 	    }
 	}
-
-

@@ -1,29 +1,394 @@
-14:07:36.724 [main] INFO  api.test.UserTests - ********* Creating user*************
-14:07:39.702 [main] INFO  api.test.UserTests - ********* User Createdr*************
-14:07:39.725 [main] INFO  api.test.UserTests - ********* Get user by ID*************
-14:07:40.228 [main] INFO  api.test.UserTests - ********* Get user by name*************
-14:07:40.656 [main] INFO  api.test.UserTests - ********* Update user ByID*************
-14:07:41.184 [main] INFO  api.test.UserTests - ********* Delete user*************
-14:07:41.604 [main] INFO  api.test.UserTests - ********* User deleted*************
-14:44:49.332 [main] DEBUG api.test.UserTests2 - debugging............
-14:44:49.360 [main] INFO  api.test.UserTests2 - ********* Creating user*************
-14:44:52.902 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
-14:52:37.304 [main] DEBUG api.test.UserTests - debugging............
-14:52:37.322 [main] INFO  api.test.UserTests - ********* Creating user*************
-14:52:40.317 [main] INFO  api.test.UserTests - ********* User Createdr*************
-14:52:40.322 [main] INFO  api.test.UserTests - ********* Get user by ID*************
-14:52:40.801 [main] INFO  api.test.UserTests - ********* Get user by name*************
-14:52:41.255 [main] INFO  api.test.UserTests - ********* Update user ByID*************
-14:52:41.785 [main] INFO  api.test.UserTests - ********* Delete user*************
-14:52:42.193 [main] INFO  api.test.UserTests - ********* User deleted*************
-14:56:12.497 [main] DEBUG api.test.UserTests - debugging............
-14:56:12.515 [main] INFO  api.test.UserTests - ********* Creating user*************
-14:56:15.357 [main] INFO  api.test.UserTests - ********* User Createdr*************
-14:56:15.364 [main] INFO  api.test.UserTests - ********* Get user by ID*************
-14:56:15.857 [main] INFO  api.test.UserTests - ********* Get user by name*************
-14:56:16.301 [main] INFO  api.test.UserTests - ********* Update user ByID*************
-14:56:16.841 [main] INFO  api.test.UserTests - ********* Delete user*************
-14:56:17.280 [main] INFO  api.test.UserTests - ********* User deleted*************
-14:57:43.313 [main] DEBUG api.test.UserTests2 - debugging............
-14:57:43.330 [main] INFO  api.test.UserTests2 - ********* Creating user*************
-14:57:46.477 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
+22:07:22.082 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:07:22.518 [main] INFO  api.test.getInvalidTest - ********* invalidUserIdsAlphaNum*************
+22:07:22.518 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:07:22.931 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:07:23.349 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithoneInvalidId*************
+22:07:23.784 [main] INFO  api.test.getInvalidTest - ********* test_getAllUsers*************
+22:07:24.854 [main] DEBUG api.test.userUpdateInvalidTest - debugging............
+22:07:24.855 [main] INFO  api.test.userUpdateInvalidTest - ********* testPutRequests*************
+22:07:24.856 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:24.856 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:25.265 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:25.266 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:25.677 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:25.677 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:26.095 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:26.095 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:26.538 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:26.539 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:26.967 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:26.967 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:27.382 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:27.382 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:27.840 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:27.840 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:28.266 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:28.267 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:28.691 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:28.691 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:29.112 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:29.112 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:29.549 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:29.550 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:30.013 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:30.013 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:30.550 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:30.550 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:30.988 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:30.988 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:31.411 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:31.412 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:31.815 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:31.816 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:32.216 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:32.216 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:32.629 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:07:32.629 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:07:33.077 [main] INFO  api.test.userUpdateInvalidTest - ********* Creating user*************
+22:07:34.010 [main] DEBUG api.test.deleteInvalidTest - debugging............
+22:07:34.010 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsDELETE*************
+22:07:34.011 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:07:34.401 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:07:34.822 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsAlphaNumDELETE*************
+22:07:34.823 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:07:35.240 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:09:03.164 [main] DEBUG api.test.UserTests2 - debugging............
+22:09:03.187 [main] INFO  api.test.UserTests2 - ********* Creating user*************
+22:09:06.150 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
+22:09:08.025 [main] DEBUG api.test.userPOSTInvalidTest - debugging............
+22:09:08.025 [main] INFO  api.test.userPOSTInvalidTest - ********* Creating POSTInvalidRequests*************
+22:09:08.029 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:08.035 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:08.463 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:08.463 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:08.943 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:08.943 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:09.389 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:09.390 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:09.824 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:09.824 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:10.234 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:10.234 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:10.637 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:10.637 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:11.072 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:11.072 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:11.536 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:11.536 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:11.990 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:11.991 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:12.389 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:12.389 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:12.815 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:12.816 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:13.217 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:13.218 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:13.619 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:13.620 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:14.037 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:14.037 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:14.474 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:14.474 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:14.873 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:14.874 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:15.294 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:15.295 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:15.728 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:09:15.729 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:09:16.141 [main] DEBUG api.test.getInvalidTest - debugging............
+22:09:16.143 [main] INFO  api.test.getInvalidTest - ********* invalidUserIds*************
+22:09:16.147 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:09:16.593 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:09:16.999 [main] INFO  api.test.getInvalidTest - ********* invalidUserIdsAlphaNum*************
+22:09:17.001 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:09:17.411 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:09:17.818 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithoneInvalidId*************
+22:09:18.215 [main] DEBUG api.test.userUpdateInvalidTest - debugging............
+22:09:18.217 [main] INFO  api.test.userUpdateInvalidTest - ********* testPutRequests*************
+22:09:18.217 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:18.218 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:18.628 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:18.628 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:19.015 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:19.015 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:19.437 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:19.438 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:19.883 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:19.884 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:20.310 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:20.311 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:20.738 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:20.738 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:21.140 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:21.141 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:21.529 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:21.529 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:21.930 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:21.930 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:22.368 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:22.369 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:22.788 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:22.788 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:23.202 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:23.203 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:23.625 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:23.625 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:24.033 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:24.033 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:24.445 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:24.446 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:24.896 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:24.896 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:25.344 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:25.344 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:25.757 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:09:25.758 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:09:26.215 [main] INFO  api.test.userUpdateInvalidTest - ********* Creating user*************
+22:09:27.151 [main] DEBUG api.test.deleteInvalidTest - debugging............
+22:09:27.151 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsDELETE*************
+22:09:27.152 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:09:27.580 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:09:28.013 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsAlphaNumDELETE*************
+22:09:28.014 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:09:28.449 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:11:31.551 [main] DEBUG api.test.UserTests2 - debugging............
+22:11:31.573 [main] INFO  api.test.UserTests2 - ********* Creating user*************
+22:11:34.531 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
+22:12:26.499 [main] DEBUG api.test.userPOSTInvalidTest - debugging............
+22:12:26.516 [main] INFO  api.test.userPOSTInvalidTest - ********* Creating POSTInvalidRequests*************
+22:12:26.523 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:26.530 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:28.924 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:28.924 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:29.402 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:29.402 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:29.829 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:29.829 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:30.246 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:30.246 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:30.690 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:30.690 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:31.095 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:31.096 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:31.509 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:31.509 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:31.933 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:31.933 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:32.337 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:32.337 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:32.740 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:32.740 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:33.139 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:33.139 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:33.555 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:33.556 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:33.964 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:33.964 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:34.388 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:34.388 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:34.832 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:34.833 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:35.235 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:35.235 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:35.651 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:35.651 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:12:36.074 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:12:36.074 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:13:54.175 [main] DEBUG api.test.UserTests2 - debugging............
+22:13:54.199 [main] INFO  api.test.UserTests2 - ********* Creating user*************
+22:13:57.058 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
+22:13:58.840 [main] DEBUG api.test.userPOSTInvalidTest - debugging............
+22:13:58.841 [main] INFO  api.test.userPOSTInvalidTest - ********* Creating POSTInvalidRequests*************
+22:13:58.848 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:13:58.852 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:13:59.249 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:13:59.249 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:13:59.664 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:13:59.664 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:00.083 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:00.083 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:00.510 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:00.510 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:00.947 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:00.947 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:01.359 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:01.359 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:01.779 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:01.780 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:02.188 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:02.188 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:02.618 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:02.619 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:03.083 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:03.084 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:03.504 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:03.504 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:03.929 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:03.930 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:04.413 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:04.413 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:04.901 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:04.901 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:05.364 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:05.364 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:05.793 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:05.793 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:06.228 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:06.229 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:06.668 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:06.669 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:07.089 [main] DEBUG api.test.getInvalidTest - debugging............
+22:14:07.091 [main] INFO  api.test.getInvalidTest - ********* invalidUserIds*************
+22:14:07.092 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:14:07.503 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:14:07.910 [main] INFO  api.test.getInvalidTest - ********* invalidUserIdsAlphaNum*************
+22:14:07.911 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:14:08.336 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:14:08.773 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithoneInvalidId*************
+22:14:09.195 [main] DEBUG api.test.userUpdateInvalidTest - debugging............
+22:14:09.196 [main] INFO  api.test.userUpdateInvalidTest - ********* testPutRequests*************
+22:14:09.197 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:09.197 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:09.597 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:09.597 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:10.017 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:10.017 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:10.443 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:10.444 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:10.852 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:10.852 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:11.293 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:11.293 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:11.686 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:11.687 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:12.083 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:12.083 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:12.515 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:12.515 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:12.974 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:12.974 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:13.393 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:13.393 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:13.819 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:13.820 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:14.226 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:14.226 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:14.661 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:14.661 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:15.085 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:15.085 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:15.509 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:15.509 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:15.918 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:15.918 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:16.306 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:16.306 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:16.708 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:16.708 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:17.160 [main] INFO  api.test.userUpdateInvalidTest - ********* Creating user*************
+22:14:18.072 [main] DEBUG api.test.deleteInvalidTest - debugging............
+22:14:18.073 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsDELETE*************
+22:14:18.074 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:14:18.499 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:14:18.913 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsAlphaNumDELETE*************
+22:14:18.914 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:14:19.344 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:14:44.438 [main] DEBUG api.test.UserTests2 - debugging............
+22:14:44.455 [main] INFO  api.test.UserTests2 - ********* Creating user*************
+22:14:47.365 [main] INFO  api.test.UserTests2 - ********* Get user by ID*************
+22:14:49.190 [main] DEBUG api.test.userPOSTInvalidTest - debugging............
+22:14:49.191 [main] INFO  api.test.userPOSTInvalidTest - ********* Creating POSTInvalidRequests*************
+22:14:49.194 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:49.197 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:49.676 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:49.676 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:50.093 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:50.093 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:50.493 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:50.493 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:50.956 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:50.956 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:51.396 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:51.396 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:51.851 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:51.851 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:52.286 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:52.286 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:52.693 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:52.693 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:53.109 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:53.109 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:53.548 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:53.548 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:53.973 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:53.974 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:54.387 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:54.387 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:54.814 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:54.814 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:55.209 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:55.209 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:55.642 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:55.642 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:56.061 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:56.062 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:56.493 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:56.494 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:56.938 [main] INFO  api.test.userPOSTInvalidTest - ********* performPostRequest*************
+22:14:56.939 [main] INFO  api.test.userPOSTInvalidTest - ********* createRequestBody*************
+22:14:57.369 [main] DEBUG api.test.getInvalidTest - debugging............
+22:14:57.371 [main] INFO  api.test.getInvalidTest - ********* invalidUserIds*************
+22:14:57.372 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:14:57.806 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidId*************
+22:14:58.235 [main] INFO  api.test.getInvalidTest - ********* invalidUserIdsAlphaNum*************
+22:14:58.236 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:14:58.637 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithInvalidIdAlphaNum*************
+22:14:59.054 [main] INFO  api.test.getInvalidTest - ********* testGetUserWithoneInvalidId*************
+22:14:59.456 [main] DEBUG api.test.userUpdateInvalidTest - debugging............
+22:14:59.456 [main] INFO  api.test.userUpdateInvalidTest - ********* testPutRequests*************
+22:14:59.457 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:59.457 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:14:59.871 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:14:59.872 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:00.306 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:00.306 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:00.732 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:00.732 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:01.117 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:01.117 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:01.543 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:01.544 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:01.949 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:01.950 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:02.345 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:02.345 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:02.754 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:02.754 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:03.252 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:03.252 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:03.638 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:03.639 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:04.055 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:04.055 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:04.478 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:04.478 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:04.909 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:04.909 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:05.302 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:05.303 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:05.746 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:05.747 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:06.166 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:06.166 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:06.573 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:06.573 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:06.965 [main] INFO  api.test.userUpdateInvalidTest - ********* performUpdateRequest*************
+22:15:06.965 [main] INFO  api.test.userUpdateInvalidTest - ********* createRequestBodyUpdateRequest*************
+22:15:07.410 [main] INFO  api.test.userUpdateInvalidTest - ********* Creating user*************
+22:15:08.455 [main] DEBUG api.test.deleteInvalidTest - debugging............
+22:15:08.455 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsDELETE*************
+22:15:08.456 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:15:08.843 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdDELETE*************
+22:15:09.263 [main] INFO  api.test.deleteInvalidTest - ********* invalidUserIdsAlphaNumDELETE*************
+22:15:09.265 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************
+22:15:09.695 [main] INFO  api.test.deleteInvalidTest - ********* testGetUserWithInvalidIdAlphaNumDELETE*************

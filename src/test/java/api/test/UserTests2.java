@@ -83,7 +83,6 @@ public class UserTests2 {
 		// Use the populated userPayload object in your tests
 		Response response = UserEndPoints2.createUser(userPayload);
 		String responseBody = response.asString();
-		System.out.println("MYYY CODEEEEUU"+ responseBody);
 		response.then().log().all();
 
 		// Assertions using TestNG's Assert class

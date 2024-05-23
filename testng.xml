@@ -10,6 +10,10 @@
 	 <test thread-count="5" name="Test">
     <classes>
      <class name="api.test.UserTests2"/>
+     <class name="api.test.userPOSTInvalidTest"/>
+     <class name="api.test.getInvalidTest"/>
+      <class name="api.test.userUpdateInvalidTest"/>
+       <class name="api.test.deleteInvalidTest"/>
        <!--<class name="api.test.UserTests2"/>-->
     </classes>
   </test> <!-- Test -->

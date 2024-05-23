@@ -2,6 +2,10 @@ C:\RestAssured\APIBootcampTestng\src\test\java\api\endpoints\Routes.java
 C:\RestAssured\APIBootcampTestng\src\test\java\api\endpoints\UserEndPoints.java
 C:\RestAssured\APIBootcampTestng\src\test\java\api\endpoints\UserEndPoints2.java
 C:\RestAssured\APIBootcampTestng\src\test\java\api\payload\User.java
+C:\RestAssured\APIBootcampTestng\src\test\java\api\test\deleteInvalidTest.java
+C:\RestAssured\APIBootcampTestng\src\test\java\api\test\getInvalidTest.java
+C:\RestAssured\APIBootcampTestng\src\test\java\api\test\userPOSTInvalidTest.java
 C:\RestAssured\APIBootcampTestng\src\test\java\api\test\UserTests.java
 C:\RestAssured\APIBootcampTestng\src\test\java\api\test\UserTests2.java
+C:\RestAssured\APIBootcampTestng\src\test\java\api\test\userUpdateInvalidTest.java
 C:\RestAssured\APIBootcampTestng\src\test\java\api\utilities\ExtentReportManager.java

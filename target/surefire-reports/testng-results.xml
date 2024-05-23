@@ -1,65 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-22T14:57:42 GMT-04:00" name="Suite" finished-at="2024-05-22T14:57:48 GMT-04:00" duration-ms="5880">
+  <suite started-at="2024-05-22T22:14:43 GMT-04:00" name="Suite" finished-at="2024-05-22T22:15:10 GMT-04:00" duration-ms="26546">
     <groups>
     </groups>
-    <test started-at="2024-05-22T14:57:42 GMT-04:00" name="Test" finished-at="2024-05-22T14:57:48 GMT-04:00" duration-ms="5880">
-      <class name="api.test.UserTests2">
-        <test-method is-config="true" signature="setupDataCreate()[pri:0, instance:api.test.UserTests2@4f18837a]" started-at="2024-05-22T14:57:42 GMT-04:00" name="setupDataCreate" finished-at="2024-05-22T14:57:43 GMT-04:00" duration-ms="558" status="PASS">
+    <test started-at="2024-05-22T22:14:43 GMT-04:00" name="Test" finished-at="2024-05-22T22:15:10 GMT-04:00" duration-ms="26546">
+      <class name="api.test.getInvalidTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.getInvalidTest@35cabb2a]" started-at="2024-05-22T22:14:57 GMT-04:00" name="setupData" finished-at="2024-05-22T22:14:57 GMT-04:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupDataCreate -->
-        <test-method signature="testCreateUserObject(org.testng.ITestContext)[pri:1, instance:api.test.UserTests2@4f18837a]" started-at="2024-05-22T14:57:43 GMT-04:00" name="testCreateUserObject" finished-at="2024-05-22T14:57:46 GMT-04:00" duration-ms="3130" status="PASS">
+        </test-method> <!-- setupData -->
+        <test-method signature="testGetUserWithInvalidId(int)[pri:0, instance:api.test.getInvalidTest@35cabb2a]" started-at="2024-05-22T22:14:57 GMT-04:00" name="testGetUserWithInvalidId" data-provider="invalidUserIds" finished-at="2024-05-22T22:14:57 GMT-04:00" duration-ms="433" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b9267b]]>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidId -->
+        <test-method signature="testGetUserWithInvalidId(int)[pri:0, instance:api.test.getInvalidTest@35cabb2a]" started-at="2024-05-22T22:14:57 GMT-04:00" name="testGetUserWithInvalidId" data-provider="invalidUserIds" finished-at="2024-05-22T22:14:58 GMT-04:00" duration-ms="428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidId -->
+        <test-method signature="testGetUserWithInvalidIdAlphaNum(java.lang.String)[pri:0, instance:api.test.getInvalidTest@35cabb2a]" started-at="2024-05-22T22:14:58 GMT-04:00" name="testGetUserWithInvalidIdAlphaNum" data-provider="invalidUserIdsAN" finished-at="2024-05-22T22:14:58 GMT-04:00" duration-ms="400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidIdAlphaNum -->
+        <test-method signature="testGetUserWithInvalidIdAlphaNum(java.lang.String)[pri:0, instance:api.test.getInvalidTest@35cabb2a]" started-at="2024-05-22T22:14:58 GMT-04:00" name="testGetUserWithInvalidIdAlphaNum" data-provider="invalidUserIdsAN" finished-at="2024-05-22T22:14:59 GMT-04:00" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidIdAlphaNum -->
+        <test-method signature="testGetUserWithoneInvalidId()[pri:0, instance:api.test.getInvalidTest@35cabb2a]" started-at="2024-05-22T22:14:59 GMT-04:00" name="testGetUserWithoneInvalidId" finished-at="2024-05-22T22:14:59 GMT-04:00" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithoneInvalidId -->
+      </class> <!-- api.test.getInvalidTest -->
+      <class name="api.test.userUpdateInvalidTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userUpdateInvalidTest@7e07db1f]" started-at="2024-05-22T22:14:59 GMT-04:00" name="setupData" finished-at="2024-05-22T22:14:59 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPutRequests(org.testng.ITestContext)[pri:1, instance:api.test.userUpdateInvalidTest@7e07db1f]" started-at="2024-05-22T22:14:59 GMT-04:00" name="testPutRequests" finished-at="2024-05-22T22:15:07 GMT-04:00" duration-ms="7952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutRequests -->
+        <test-method signature="testUsingUserObject(org.testng.ITestContext)[pri:1, instance:api.test.userUpdateInvalidTest@7e07db1f]" started-at="2024-05-22T22:15:07 GMT-04:00" name="testUsingUserObject" finished-at="2024-05-22T22:15:08 GMT-04:00" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsingUserObject -->
+        <test-method signature="testDeleteUserByIDObject(org.testng.ITestContext)[pri:2, instance:api.test.userUpdateInvalidTest@7e07db1f]" started-at="2024-05-22T22:15:08 GMT-04:00" name="testDeleteUserByIDObject" finished-at="2024-05-22T22:15:08 GMT-04:00" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByIDObject -->
+      </class> <!-- api.test.userUpdateInvalidTest -->
+      <class name="api.test.deleteInvalidTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.deleteInvalidTest@1189dd52]" started-at="2024-05-22T22:15:08 GMT-04:00" name="setup" finished-at="2024-05-22T22:15:08 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetUserWithInvalidId(int)[pri:0, instance:api.test.deleteInvalidTest@1189dd52]" started-at="2024-05-22T22:15:08 GMT-04:00" name="testGetUserWithInvalidId" data-provider="invalidUserIds" finished-at="2024-05-22T22:15:08 GMT-04:00" duration-ms="385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidId -->
+        <test-method signature="testGetUserWithInvalidId(int)[pri:0, instance:api.test.deleteInvalidTest@1189dd52]" started-at="2024-05-22T22:15:08 GMT-04:00" name="testGetUserWithInvalidId" data-provider="invalidUserIds" finished-at="2024-05-22T22:15:09 GMT-04:00" duration-ms="418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidId -->
+        <test-method signature="testGetUserWithInvalidIdAlphaNum(java.lang.String)[pri:0, instance:api.test.deleteInvalidTest@1189dd52]" started-at="2024-05-22T22:15:09 GMT-04:00" name="testGetUserWithInvalidIdAlphaNum" data-provider="invalidUserIdsAN" finished-at="2024-05-22T22:15:09 GMT-04:00" duration-ms="430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidIdAlphaNum -->
+        <test-method signature="testGetUserWithInvalidIdAlphaNum(java.lang.String)[pri:0, instance:api.test.deleteInvalidTest@1189dd52]" started-at="2024-05-22T22:15:09 GMT-04:00" name="testGetUserWithInvalidIdAlphaNum" data-provider="invalidUserIdsAN" finished-at="2024-05-22T22:15:10 GMT-04:00" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserWithInvalidIdAlphaNum -->
+      </class> <!-- api.test.deleteInvalidTest -->
+      <class name="api.test.UserTests2">
+        <test-method is-config="true" signature="setupDataCreate()[pri:0, instance:api.test.UserTests2@72d1ad2e]" started-at="2024-05-22T22:14:43 GMT-04:00" name="setupDataCreate" finished-at="2024-05-22T22:14:44 GMT-04:00" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDataCreate -->
+        <test-method signature="testCreateUserObject(org.testng.ITestContext)[pri:1, instance:api.test.UserTests2@72d1ad2e]" started-at="2024-05-22T22:14:44 GMT-04:00" name="testCreateUserObject" finished-at="2024-05-22T22:14:47 GMT-04:00" duration-ms="2897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUserObject -->
-        <test-method signature="testGetById(org.testng.ITestContext)[pri:2, instance:api.test.UserTests2@4f18837a]" started-at="2024-05-22T14:57:46 GMT-04:00" name="testGetById" finished-at="2024-05-22T14:57:46 GMT-04:00" duration-ms="496" status="PASS">
+        <test-method signature="testGetById(org.testng.ITestContext)[pri:2, instance:api.test.UserTests2@72d1ad2e]" started-at="2024-05-22T22:14:47 GMT-04:00" name="testGetById" finished-at="2024-05-22T22:14:47 GMT-04:00" duration-ms="451" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b9267b]]>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetById -->
-        <test-method signature="testGetUserByUserName(org.testng.ITestContext)[pri:3, instance:api.test.UserTests2@4f18837a]" started-at="2024-05-22T14:57:46 GMT-04:00" name="testGetUserByUserName" finished-at="2024-05-22T14:57:47 GMT-04:00" duration-ms="466" status="PASS">
+        <test-method signature="testGetUserByUserName(org.testng.ITestContext)[pri:3, instance:api.test.UserTests2@72d1ad2e]" started-at="2024-05-22T22:14:47 GMT-04:00" name="testGetUserByUserName" finished-at="2024-05-22T22:14:48 GMT-04:00" duration-ms="426" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b9267b]]>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserByUserName -->
-        <test-method signature="testUpdateUserObject(org.testng.ITestContext)[pri:4, instance:api.test.UserTests2@4f18837a]" started-at="2024-05-22T14:57:47 GMT-04:00" name="testUpdateUserObject" finished-at="2024-05-22T14:57:47 GMT-04:00" duration-ms="536" status="PASS">
+        <test-method signature="testUpdateUserObject(org.testng.ITestContext)[pri:4, instance:api.test.UserTests2@72d1ad2e]" started-at="2024-05-22T22:14:48 GMT-04:00" name="testUpdateUserObject" finished-at="2024-05-22T22:14:48 GMT-04:00" duration-ms="512" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b9267b]]>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateUserObject -->
-        <test-method signature="testDeleteUserByIDObject(org.testng.ITestContext)[pri:5, instance:api.test.UserTests2@4f18837a]" started-at="2024-05-22T14:57:47 GMT-04:00" name="testDeleteUserByIDObject" finished-at="2024-05-22T14:57:48 GMT-04:00" duration-ms="416" status="PASS">
+        <test-method signature="testDeleteUserByIDObject(org.testng.ITestContext)[pri:5, instance:api.test.UserTests2@72d1ad2e]" started-at="2024-05-22T22:14:48 GMT-04:00" name="testDeleteUserByIDObject" finished-at="2024-05-22T22:14:49 GMT-04:00" duration-ms="427" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6b9267b]]>
+                <![CDATA[org.testng.TestRunner@7544a1e4]]>
               </value>
             </param>
           </params>
@@ -67,6 +210,16 @@
           </reporter-output>
         </test-method> <!-- testDeleteUserByIDObject -->
       </class> <!-- api.test.UserTests2 -->
+      <class name="api.test.userPOSTInvalidTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.userPOSTInvalidTest@3a93b025]" started-at="2024-05-22T22:14:49 GMT-04:00" name="setupData" finished-at="2024-05-22T22:14:49 GMT-04:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method signature="testPOSTInvalidRequests()[pri:1, instance:api.test.userPOSTInvalidTest@3a93b025]" started-at="2024-05-22T22:14:49 GMT-04:00" name="testPOSTInvalidRequests" finished-at="2024-05-22T22:14:57 GMT-04:00" duration-ms="8175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPOSTInvalidRequests -->
+      </class> <!-- api.test.userPOSTInvalidTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
