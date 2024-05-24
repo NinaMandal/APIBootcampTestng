@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	
+
 	<listeners>
-		<listener class-name="api.utilities.ExtentReportManager"/>
-	</listeners> 
-	
-	
-	 <test thread-count="5" name="Test">
-    <classes>
-     <class name="api.test.UserTests2"/>
-     <class name="api.test.userPOSTInvalidTest"/>
-     <class name="api.test.getInvalidTest"/>
-      <class name="api.test.userUpdateInvalidTest"/>
-       <class name="api.test.deleteInvalidTest"/>
-       <!--<class name="api.test.UserTests2"/>-->
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+		<listener class-name="api.utilities.ExtentReportManager" />
+	</listeners>
+
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="api.test.jsonSchemaValidation" />
+			<class name="api.test.Authentication" />
+			<class name="api.test.UserTests2" />
+			<class name="api.test.userPOSTInvalidTest" />
+			<class name="api.test.getInvalidTest" />
+			<class name="api.test.userUpdateInvalidTest" />
+			<class name="api.test.deleteInvalidTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

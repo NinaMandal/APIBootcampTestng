@@ -11,13 +11,19 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import api.endpoints.UserEndPoints2;
 import api.payload.User;
+import api.utilities.ScreenshotListener;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.asserts.SoftAssert;
+import org.apache.commons.lang3.exception.ExceptionUtils; // for better exception handling
+
+
+@Listeners({ScreenshotListener.class})
 public class userPOSTInvalidTest {
 	
 	

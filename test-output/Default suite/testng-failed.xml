@@ -5,8 +5,8 @@
     <classes>
       <class name="api.test.UserTests">
         <methods>
-          <include name="testCreateUserObject" invocation-numbers="0"/>
-          <include name="setupDataCreate"/>
+          <include name="testPutRequests"/>
+          <include name="setupData"/>
         </methods>
       </class> <!-- api.test.UserTests -->
     </classes>

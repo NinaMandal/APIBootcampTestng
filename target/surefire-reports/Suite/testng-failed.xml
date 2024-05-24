@@ -6,12 +6,11 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="api.test.UserTests2">
+      <class name="api.test.jSONSchemaValidation">
         <methods>
-          <include name="setupDataCreate"/>
-          <include name="testUpdateUserObject" invocation-numbers="0"/>
+          <include name="jsonschemavalidation"/>
         </methods>
-      </class> <!-- api.test.UserTests2 -->
+      </class> <!-- api.test.jSONSchemaValidation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

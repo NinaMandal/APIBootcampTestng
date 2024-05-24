@@ -15,6 +15,7 @@ import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonParseException;
@@ -25,8 +26,11 @@ import api.endpoints.UserEndPoints;
 import api.endpoints.UserEndPoints2;
 import api.payload.User;
 import api.payload.User.Address;
+import api.utilities.ScreenshotListener;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+
+@Listeners({ScreenshotListener.class})
 
 public class UserTests2 {
 
