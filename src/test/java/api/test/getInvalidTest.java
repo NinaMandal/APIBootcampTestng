@@ -32,7 +32,7 @@ public class getInvalidTest {
 		RestAssured.baseURI = "https://userserviceapi-a54ceee3346a.herokuapp.com/uap/";
 
 		// Define the invalid user ID
-		int invalidUserId = 99000; // assuming this ID is invalid
+		int invalidUserId = -99000; // assuming this ID is invalid
 
 		given().log().all().auth().basic("Numpy@gmail.com", "api@123")
 
@@ -45,8 +45,8 @@ public class getInvalidTest {
 	@DataProvider(name = "invalidUserIds")
 	public Object[][] invalidUserIds() {
 		logger.info("********* invalidUserIds*************");
-		return new Object[][] { { 9999 }, // invalid user ID 1
-			{ 123456789 },// invalid user ID 2
+		return new Object[][] { { -999654321 }, // invalid user ID 1
+			{ 1234567895 },// invalid user ID 2
 			// Add more invalid user IDs here
 		};
 	}

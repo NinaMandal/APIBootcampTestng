@@ -33,8 +33,8 @@ public class deleteInvalidTest {
 	public Object[][] invalidUserIds() {
 		logger.info("********* invalidUserIdsDELETE*************");
 		return new Object[][] {
-			{ 9999 }, // invalid user ID 1
-			{123456789},// invalid user ID 2
+			{ -999654321 }, // invalid user ID 1
+			{1234567895},// invalid user ID 2
 		};
 	}
 
