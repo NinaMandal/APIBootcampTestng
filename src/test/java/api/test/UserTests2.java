@@ -1,12 +1,9 @@
 package api.test;
 
 
-import static io.restassured.RestAssured.given;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Properties;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -15,22 +12,16 @@ import org.json.JSONTokener;
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
-import api.endpoints.UserEndPoints;
 import api.endpoints.UserEndPoints2;
 import api.payload.User;
-import api.payload.User.Address;
-import api.utilities.ScreenshotListener;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
-@Listeners({ScreenshotListener.class})
 
 public class UserTests2 {
 

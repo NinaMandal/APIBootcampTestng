@@ -9,13 +9,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import api.utilities.ScreenshotListener;
 import io.restassured.RestAssured;
 
-@Listeners({ScreenshotListener.class})
 public class deleteInvalidTest {
 
 	public Logger logger;
